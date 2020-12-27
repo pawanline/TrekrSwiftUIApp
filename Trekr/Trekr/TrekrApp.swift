@@ -11,8 +11,14 @@ import SwiftUI
 struct TrekrApp: App {
     var body: some Scene {
         WindowGroup {
+            TabView {
             NavigationView {
-            ContentView()
+                ContentView(location: Locations().primary)
+            }
+            .tabItem {
+                Image(systemName: "airplane.circle.fill")
+                Text("Discover")
+            }
             }
         }
     }
