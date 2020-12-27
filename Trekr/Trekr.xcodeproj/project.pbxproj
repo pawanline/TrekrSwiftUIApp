@@ -15,6 +15,9 @@
 		D3185D512598EA7400584289 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = D3185D4F2598EA7400584289 /* tips.json */; };
 		D3185D542598F5BA00584289 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3185D532598F5BA00584289 /* Location.swift */; };
 		D3185D582598FABA00584289 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3185D572598FABA00584289 /* Locations.swift */; };
+		D3185D5B2599050F00584289 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3185D5A2599050F00584289 /* WorldView.swift */; };
+		D3185D5E25990CF600584289 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3185D5D25990CF600584289 /* Tip.swift */; };
+		D3185D6125990D9400584289 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3185D6025990D9400584289 /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		D3185D4F2598EA7400584289 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		D3185D532598F5BA00584289 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		D3185D572598FABA00584289 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		D3185D5A2599050F00584289 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		D3185D5D25990CF600584289 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		D3185D6025990D9400584289 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 				D3185D422598E8E800584289 /* Assets.xcassets */,
 				D3185D472598E8E800584289 /* Info.plist */,
 				D3185D442598E8E800584289 /* Preview Content */,
+				D3185D5A2599050F00584289 /* WorldView.swift */,
+				D3185D5D25990CF600584289 /* Tip.swift */,
+				D3185D6025990D9400584289 /* TipsView.swift */,
 			);
 			path = Trekr;
 			sourceTree = "<group>";
@@ -154,6 +163,9 @@
 			files = (
 				D3185D412598E8E700584289 /* ContentView.swift in Sources */,
 				D3185D542598F5BA00584289 /* Location.swift in Sources */,
+				D3185D5B2599050F00584289 /* WorldView.swift in Sources */,
+				D3185D5E25990CF600584289 /* Tip.swift in Sources */,
+				D3185D6125990D9400584289 /* TipsView.swift in Sources */,
 				D3185D582598FABA00584289 /* Locations.swift in Sources */,
 				D3185D3F2598E8E700584289 /* TrekrApp.swift in Sources */,
 			);
